@@ -26,7 +26,7 @@
 
     async function loadCsv() {
         try {
-            const csvUrl = "/summer_movies.csv";
+            const csvUrl = "summer_movies.csv";
             movies = await d3.csv(csvUrl, (row: any): TMovie | undefined => {
                 const yearNum = toNum(row.year);
                 if (!Number.isFinite(yearNum)) return undefined;

@@ -10,7 +10,7 @@
 </script>
 
 <h1>Lan's VIS Site</h1>
-<img src="/王不见王.png" alt="王不见王" width="200px" />
+<img src="王不见王.png" alt="王不见王" width="200px" />
 
 <div>
     You can click up to
